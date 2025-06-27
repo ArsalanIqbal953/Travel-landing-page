@@ -1,0 +1,81 @@
+
+ * {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 248, 220, 0.73);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 90px;
+}
+
+.nav-logo img {
+    height: 40px;
+}
+
+.logo-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+.nav-links{
+    display: flex;
+    padding-right: 6px;
+}
+.nav-links ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    padding-right: 300px;
+    padding-top: 14px;
+}
+
+.nav-links ul li {
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+#button{
+    color: #F66F4D;
+    background-color: white;
+    width: 100px;
+    border-radius: 15px;
+    height: 40px;
+    cursor: pointer;
+    border-color:  #F66F4D;
+}
+.main-content{
+    display: flex;
+    padding: 72px;
+}
+.context-text{
+    display: flex;
+}
+.h1{
+    font-size: 45px;
+}
+.content-img img{
+    height: 45vh;
+    display: flex;
+    padding-left: 270px;
+    margin-bottom: 10px;
+}
+.trip-tour{
+    display: flex;
+    background-color: white;
+}
+.input-location{
+    display: flex;
+    align-items: center;    
+    padding-left: 70px;
+    margin-top: -50px;
+}
